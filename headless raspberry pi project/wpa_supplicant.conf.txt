@@ -1,0 +1,9 @@
+ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+    update_config=1
+    country=IE //. change based on the country you are in (remove this line when done) 
+
+    network={
+	ssid="your wifi network"
+	psk="password"
+	scan_ssid=1
+    }
