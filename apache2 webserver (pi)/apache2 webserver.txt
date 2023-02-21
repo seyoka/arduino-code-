@@ -1,0 +1,20 @@
+//.start by inputting these codes into your terminal 
+sudo apt update && sudo apt upgrade 
+//. making sure your system is up to date 
+sudo apt install apache2 
+//. manually type your Pis ip address into a webrowser
+ifconfig
+//. this is how you check your ip address it would be under wlan0 under inet 
+cd /var/www/html 
+//. opening where the server information is 
+ls 
+//. lists the contents should say index html 
+sudo mv index html old_index.html 
+//. renames our old html as we want a new one to be primary 
+sudo nano index.html 
+//. creates a new directory for our webserver to use this time we get to edit it 
+<h> "your text" </h> 
+crtl + x 
+y 
+enter 
+//. congrats you have edited your webserver! 
