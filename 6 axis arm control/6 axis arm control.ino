@@ -175,9 +175,8 @@ void loop() {
            index++;}
         ///////////////////////// RESET ///////////////////////////////////////////////////            
         if(bt.startsWith("RESET")){
-          //memset se utiliza para rellenar un bloque de memoria con un valor determinado
-          //memeset("matriz","dato a rellenar","tamaño de la matriz")
-           memset(s1,0,sizeof(s1)); //rellena con el valor de "0" todas las posiciones de la matriz
+        
+           memset(s1,0,sizeof(s1)); 
            memset(s2,0,sizeof(s2));
            memset(s4,0,sizeof(s4));
            memset(s5,0,sizeof(s5));
